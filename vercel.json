@@ -1,0 +1,16 @@
+{
+  "name": "tg",
+  "version": 2,
+  "routes": [
+    {"src": "/pluto/(.*)","dest": "https://pluto.web.telegram.org/$1"},
+    {"src": "/venus/(.*)","dest": "https://venus.web.telegram.org/$1"},
+    {"src": "/aurora/(.*)","dest": "https://aurora.web.telegram.org/$1"},
+    {"src": "/vesta/(.*)","dest": "https://vesta.web.telegram.org/$1"},
+    {"src": "/flora/(.*)","dest": "https://flora.web.telegram.org/$1"},
+    {"src": "/pluto-1/(.*)","dest": "https://pluto-1.web.telegram.org/$1"},
+    {"src": "/venus-1/(.*)","dest": "https://venus-1.web.telegram.org/$1"},
+    {"src": "/aurora-1/(.*)","dest": "https://aurora-1.web.telegram.org/$1"},
+    {"src": "/vesta-1/(.*)","dest": "https://vesta-1.web.telegram.org/$1"},
+    {"src": "/flora-1/(.*)","dest": "https://flora-1.web.telegram.org/$1"}
+  ]
+}
